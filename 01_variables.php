@@ -20,3 +20,21 @@
     print $z;
     $a = [1,2,3];
     var_dump($a);
+
+    echo "<br> \n";
+
+    //mirit ki?
+    $messaga = "egy";
+
+    print "Kiír ".$messaga." érteket.";
+    print "<br> \n Kiír $messaga értéket.";
+    print "<br> \n Kiír $messaga értéket.";
+
+    echo "<br> \n Kiír ",$messaga," érteket.";
+
+    $ar = 1500.5;
+    printf("<br> \n Az ár : %.2f Ft <br> \n",$ar);
+
+    $szam = 7;
+    $kod = sprintf("Azon-%04d",$szam);
+    print $kod;
